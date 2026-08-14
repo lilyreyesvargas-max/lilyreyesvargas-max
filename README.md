@@ -8,15 +8,27 @@ Trabajo en español y en inglés · *I work in Spanish and English.*
 
 ### En qué ando
 
-**Balancily** — SaaS de gestión financiera para pequeñas empresas. Gastos, facturación, cuentas por cobrar y por pagar, método Profit First y lectura automática de facturas con visión por IA. Multiempresa, bilingüe, con suscripciones y 2FA.
+**[Balancily](https://balancily.com)** — SaaS de gestión financiera para pequeñas empresas. Gastos, facturación, cuentas por cobrar y por pagar, método Profit First y lectura automática de facturas con visión por IA. Multiempresa, bilingüe, con suscripciones y verificación en dos pasos. **Se puede probar en [balancily.com](https://balancily.com).**
 `FastAPI` · `PostgreSQL` · `Next.js` · `Stripe` · En producción.
+
+**Plataforma de operaciones clínicas** — ERP sanitario multisede sobre Odoo 17: historia clínica electrónica con CIE-10 y submodelos por especialidad, agenda entre sedes, facturación a aseguradoras con ciclo de vida de la reclamación y conciliación de ERA, farmacia con receta electrónica, inventario, RR. HH. y nóminas, y cuadros de mando por rol. Cumple el EDI de EE. UU. (X12 837P/835/270/271) contra un clearinghouse de pruebas propio.
+`Odoo 17` · `PostgreSQL` · `Docker` · `FastAPI` · `OWL`
 
 **Portal corporativo con CMS propio** — sitio bilingüe con su panel de administración, sin dependencias de plataforma: el contenido lo edita quien lo escribe, no quien programa.
 `Flask` · `PostgreSQL` · `JavaScript` sin framework · En producción.
 
-**Sistema de gestión clínica** — flujos de farmacia, receta electrónica y facturación sanitaria sobre Odoo.
+---
 
-**Infraestructura y migraciones** — sitios movidos a AWS con su HTTPS, su WAF, sus respaldos y su monitorización. Incluye la parte que nadie enseña: responder a un sitio comprometido y dejarlo limpio.
+### La parte que no se ve
+
+No sólo escribo el software: **administro lo que lo mantiene en pie.**
+
+- **Servidores** en AWS EC2, con nginx, HTTPS automático, aislamiento por sitio, arranque supervisado y respaldos verificados —restaurados, no sólo generados—.
+- **Cloudflare** delante de todo: DNS, proxy, reglas de WAF, TLS estricto y reenvío de correo del dominio.
+- **Correo transaccional** con Resend, con SPF y DKIM en regla, porque una factura en la carpeta de spam es una factura que no se cobra.
+- **Cobros** con Stripe: suscripciones, prorrateos, webhooks y conciliación cuando un evento se pierde.
+- **Observabilidad**: reporte de errores con los datos de clientes filtrados antes de salir, monitorización externa e integración continua.
+- **Respuesta a incidentes**: incluida la parte que nadie enseña — un sitio comprometido, limpiarlo, entender por dónde entraron y cerrarlo.
 
 ---
 
@@ -33,7 +45,7 @@ Trabajo en español y en inglés · *I work in Spanish and English.*
 
 `Python` · `TypeScript` · `Java` · `PHP` · `SQL`
 `FastAPI` · `Flask` · `Django` · `Next.js` · `React` · `Spring Boot` · `Odoo` · `WordPress`
-`PostgreSQL` · `MySQL` · `AWS` · `Cloudflare` · `nginx` · `Docker` · `Stripe`
+`PostgreSQL` · `MySQL` · `AWS` · `Cloudflare` · `nginx` · `Docker` · `Stripe` · `Resend`
 
 ---
 
