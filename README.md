@@ -32,10 +32,17 @@ No sólo escribo el software: **administro lo que lo mantiene en pie.**
 
 ---
 
-### IA, donde aporta
+### Ingeniería de IA
 
-- **En producción**: lectura automática de facturas con la API de Claude. Se le pasa un PDF o una foto y devuelve el importe, la fecha, el número y quién emite — lo que evita teclear cada comprobante. La persona confirma antes de que nada se guarde, y el sistema aprende el formato de cada proveedor para no volver a gastar cupo con el mismo.
-- **En mi flujo de trabajo**: agentes de Claude Code para revisión de arquitectura, QA y seguridad; servidores MCP propios; y automatizaciones con n8n para el trabajo repetitivo.
+- **Sistemas de agentes.** Los diseño con roles acotados y responsabilidades que no se pisan —arquitectura, QA, seguridad, análisis funcional— y con verificación cruzada: un agente propone, otro intenta refutarlo. Sin eso, un informe de IA es una opinión larga y segura de sí misma.
+- **Servidores MCP propios**, para darle a un modelo acceso a herramientas y datos reales sin abrirle la puerta entera.
+- **Canalizaciones de extracción**: salida estructurada en vez de texto libre, limpieza de datos sensibles antes de que salgan del servidor, confirmación humana antes de guardar, y aprendizaje del formato de cada proveedor para no volver a pagar por lo mismo.
+- **Automatizaciones** con n8n para el trabajo repetitivo.
+
+### IA en producción
+
+- **Lectura automática de facturas** con la API de Claude: se le pasa un PDF o una foto y devuelve el importe, la fecha, el número y quién emite — lo que evita teclear cada comprobante. La persona confirma antes de que nada se guarde.
+
 - **Lo que no hago**: dejar que decida sola. Lo que propone la IA es una propuesta, no una conclusión — se revisa antes de valer, sea una decisión de arquitectura, un cambio que va a producción o un dato que entra en la contabilidad de un cliente. La herramienta acelera el trabajo; la responsabilidad de lo que se entrega no se delega.
 
 ---
