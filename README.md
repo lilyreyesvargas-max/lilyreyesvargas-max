@@ -1,6 +1,8 @@
 # Lilianne Reyes Vargas
 
-Desarrolladora full-stack. Fundadora de **[Lily Technology Group LLC](https://ltgsoft.com)**, donde construyo software a medida para pequeñas empresas — y me quedo con él después: el servidor, los respaldos y la llamada de las tres de la madrugada también son míos.
+**Entregar el código es la mitad del trabajo.** La otra mitad es que siga en pie a las tres de la madrugada — y de esa también me encargo yo.
+
+Desarrolladora full-stack y fundadora de **[Lily Technology Group LLC](https://ltgsoft.com)**, donde construyo software a medida para pequeñas empresas: lo diseño, lo escribo, lo despliego y lo mantengo funcionando.
 
 Trabajo en español y en inglés · *I work in Spanish and English.*
 
