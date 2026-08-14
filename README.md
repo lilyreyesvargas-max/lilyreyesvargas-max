@@ -23,11 +23,11 @@ Trabajo en español y en inglés · *I work in Spanish and English.*
 
 No sólo escribo el software: **administro lo que lo mantiene en pie.**
 
-- **Servidores** en AWS EC2, con nginx, HTTPS automático, aislamiento por sitio, arranque supervisado y respaldos verificados —restaurados, no sólo generados—.
+- **Servidores** en AWS EC2, con nginx o Apache según el sitio, HTTPS automático, aislamiento por sitio, arranque supervisado y respaldos verificados —restaurados, no sólo generados—.
 - **Cloudflare** delante de todo: DNS, proxy, reglas de WAF, TLS estricto y reenvío de correo del dominio.
 - **Correo transaccional** con Resend, con SPF y DKIM en regla, porque una factura en la carpeta de spam es una factura que no se cobra.
 - **Cobros** con Stripe: suscripciones, prorrateos, webhooks y conciliación cuando un evento se pierde.
-- **Observabilidad**: reporte de errores con los datos de clientes filtrados antes de salir, monitorización externa e integración continua.
+- **Observabilidad**: reporte de errores con Sentry, filtrando los datos de clientes ANTES de que salgan del servidor; monitorización externa e integración continua.
 - **Respuesta a incidentes**: incluida la parte que nadie enseña — un sitio comprometido, limpiarlo, entender por dónde entraron y cerrarlo.
 
 ---
@@ -45,7 +45,7 @@ No sólo escribo el software: **administro lo que lo mantiene en pie.**
 
 `Python` · `TypeScript` · `Java` · `PHP` · `SQL`
 `FastAPI` · `Flask` · `Django` · `Next.js` · `React` · `Spring Boot` · `Odoo` · `WordPress`
-`PostgreSQL` · `MySQL` · `AWS` · `Cloudflare` · `nginx` · `Docker` · `Stripe` · `Resend`
+`PostgreSQL` · `MySQL` · `AWS` · `Cloudflare` · `nginx` · `Apache` · `Docker` · `Stripe` · `Resend` · `Sentry`
 
 ---
 
