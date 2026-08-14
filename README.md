@@ -36,7 +36,7 @@ No sólo escribo el software: **administro lo que lo mantiene en pie.**
 
 - **En producción**: lectura automática de facturas con la API de Claude. Se le pasa un PDF o una foto y devuelve el importe, la fecha, el número y quién emite — lo que evita teclear cada comprobante. La persona confirma antes de que nada se guarde, y el sistema aprende el formato de cada proveedor para no volver a gastar cupo con el mismo.
 - **En mi flujo de trabajo**: agentes de Claude Code para revisión de arquitectura, QA y seguridad; servidores MCP propios; y automatizaciones con n8n para el trabajo repetitivo.
-- **Lo que no hago**: dejar que decida sola. Una propuesta de la IA se confirma antes de tocar la contabilidad de nadie.
+- **Lo que no hago**: dejar que decida sola. Lo que propone la IA es una propuesta, no una conclusión — se revisa antes de valer, sea una decisión de arquitectura, un cambio que va a producción o un dato que entra en la contabilidad de un cliente. La herramienta acelera el trabajo; la responsabilidad de lo que se entrega no se delega.
 
 ---
 
