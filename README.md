@@ -43,7 +43,7 @@ No sólo escribo el software: **administro lo que lo mantiene en pie.**
 
 - **Lectura automática de facturas** con la API de Claude: se le pasa un PDF o una foto y devuelve el importe, la fecha, el número y quién emite — lo que evita teclear cada comprobante. La persona confirma antes de que nada se guarde.
 
-- **Lo que no hago**: dejar que decida sola. Lo que propone la IA es una propuesta, no una conclusión — se revisa antes de valer, sea una decisión de arquitectura, un cambio que va a producción o un dato que entra en la contabilidad de un cliente. La herramienta acelera el trabajo; la responsabilidad de lo que se entrega no se delega.
+> **Y lo que no hago, en cualquiera de los dos casos:** dejar que decida sola. Lo que propone la IA es una propuesta, no una conclusión — se revisa antes de valer, sea una decisión de arquitectura, un cambio que va a producción o un dato que entra en la contabilidad de un cliente. La herramienta acelera el trabajo; la responsabilidad de lo que se entrega no se delega.
 
 ---
 
