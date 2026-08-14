@@ -8,7 +8,7 @@ Trabajo en español y en inglés · *I work in Spanish and English.*
 
 ### En qué ando
 
-**[Balancily](https://balancily.com)** — SaaS de gestión financiera para pequeñas empresas. Gastos, facturación, cuentas por cobrar y por pagar, método Profit First y lectura automática de facturas con visión por IA. Multiempresa, bilingüe, con suscripciones y verificación en dos pasos. **Se puede probar en [balancily.com](https://balancily.com).**
+**[Balancily](https://balancily.com)** — SaaS de gestión financiera para pequeñas empresas. Gastos, facturación, cuentas por cobrar y por pagar, método Profit First y lectura automática de facturas con la visión de la API de Claude. Multiempresa, bilingüe, con suscripciones y verificación en dos pasos. **Se puede probar en [balancily.com](https://balancily.com).**
 `FastAPI` · `PostgreSQL` · `Next.js` · `Stripe` · En producción.
 
 **Plataforma de operaciones clínicas** — ERP sanitario multisede sobre Odoo 17: historia clínica electrónica con CIE-10 y submodelos por especialidad, agenda entre sedes, facturación a aseguradoras con ciclo de vida de la reclamación y conciliación de ERA, farmacia con receta electrónica, inventario, RR. HH. y nóminas, y cuadros de mando por rol. Cumple el EDI de EE. UU. (X12 837P/835/270/271) contra un clearinghouse de pruebas propio.
@@ -32,6 +32,14 @@ No sólo escribo el software: **administro lo que lo mantiene en pie.**
 
 ---
 
+### IA, donde aporta
+
+- **En producción**: lectura automática de facturas con la API de Claude. Se le pasa un PDF o una foto y devuelve el importe, la fecha, el número y quién emite — lo que evita teclear cada comprobante. La persona confirma antes de que nada se guarde, y el sistema aprende el formato de cada proveedor para no volver a gastar cupo con el mismo.
+- **En mi flujo de trabajo**: agentes de Claude Code para revisión de arquitectura, QA y seguridad; servidores MCP propios; y automatizaciones con n8n para el trabajo repetitivo.
+- **Lo que no hago**: dejar que decida sola. Una propuesta de la IA se confirma antes de tocar la contabilidad de nadie.
+
+---
+
 ### Cómo trabajo
 
 - **Tests antes que el código**, y calibrados: un test que no falla cuando reintroduzco el bug no protege nada.
@@ -46,6 +54,7 @@ No sólo escribo el software: **administro lo que lo mantiene en pie.**
 `Python` · `TypeScript` · `Java` · `PHP` · `SQL`
 `FastAPI` · `Flask` · `Django` · `Next.js` · `React` · `Spring Boot` · `Odoo` · `WordPress`
 `PostgreSQL` · `MySQL` · `AWS` · `Cloudflare` · `nginx` · `Apache` · `Docker` · `Stripe` · `Resend` · `Sentry`
+`Claude API` · `Claude Code` · `MCP` · `n8n`
 
 ---
 
