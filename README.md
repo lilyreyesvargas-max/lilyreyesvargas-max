@@ -2,7 +2,7 @@
 
 **Entregar el código es la mitad del trabajo.** La otra mitad es que siga en pie a las tres de la madrugada — y de esa también me encargo yo.
 
-Desarrolladora full-stack y fundadora de **[Lily Technology Group LLC](https://ltgsoft.com)**, donde construyo software a medida para pequeñas empresas: lo diseño, lo escribo, lo despliego y lo mantengo funcionando.
+Desarrolladora full-stack y fundadora de **[Lily Technology Group LLC](https://ltgsoft.com)**, donde construyo software a medida para empresas de cualquier tamaño —de la pequeña y mediana a la corporativa—: lo diseño, lo escribo, lo despliego y lo mantengo funcionando.
 
 Trabajo en español y en inglés · *I work in Spanish and English.*
 
@@ -10,7 +10,7 @@ Trabajo en español y en inglés · *I work in Spanish and English.*
 
 ### En qué ando
 
-**[Balancily](https://balancily.com)** — SaaS de gestión financiera para pequeñas empresas. Gastos, facturación, cuentas por cobrar y por pagar, método Profit First y lectura automática de facturas con la visión de la API de Claude. Multiempresa, bilingüe, con suscripciones y verificación en dos pasos. **Se puede probar en [balancily.com](https://balancily.com).**
+**[Balancily](https://balancily.com)** — SaaS de gestión financiera para pequeñas y medianas empresas. Gastos, facturación, cuentas por cobrar y por pagar, método Profit First y lectura automática de facturas con la visión de la API de Claude. Multiempresa, bilingüe, con suscripciones y verificación en dos pasos. **Se puede probar en [balancily.com](https://balancily.com).**
 `FastAPI` · `PostgreSQL` · `Next.js` · `Stripe` · En producción.
 
 **Plataforma de operaciones clínicas** — ERP sanitario multisede sobre Odoo 17: historia clínica electrónica con CIE-10 y submodelos por especialidad, agenda entre sedes, facturación a aseguradoras con ciclo de vida de la reclamación y conciliación de ERA, farmacia con receta electrónica, inventario, RR. HH. y nóminas, y cuadros de mando por rol. Cumple el EDI de EE. UU. (X12 837P/835/270/271) contra un clearinghouse de pruebas propio.
